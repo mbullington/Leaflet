@@ -33,6 +33,7 @@ export default {
 			name: 'L',
 			banner: banner,
 			sourcemap: true,
+      exports: 'named'
 		},
 		{
 			file: pkg.module,
